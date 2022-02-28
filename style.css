@@ -26,6 +26,7 @@ body{
 }
 .tile{
     border:4px solid black;
+    outline: none;
 }
 .topLeft{
     background-color: rgb(14, 105, 14);
@@ -83,4 +84,33 @@ border-bottom-left-radius: 100%;
     width: 60px;
     margin-left:25px ;
     margin-right:25px;
+}
+#labels{
+    
+    display: flex;
+   justify-content: space-around;
+   
+  
+}
+#display{
+    box-sizing: border-box;
+    width: 120px;
+    height: 50px;
+    background: rgb(44, 3, 3);
+    display: inline-block;
+    margin-top: 5px;
+    color: red;
+    text-align: center;
+    font-size: 48px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+#displayLabel{
+    margin-top: 5px;
+}
+
+
+.label{
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
 }
