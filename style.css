@@ -107,6 +107,9 @@ border-bottom-left-radius: 100%;
 }
 #displayLabel{
     margin-top: 5px;
+    position: absolute;
+    bottom: 9px;
+    left: 98px;
 }
 
 

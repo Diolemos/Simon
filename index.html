@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="script.css" defer></script>
+    <script src="script.js" defer></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -24,15 +24,17 @@
         <div class="topCircle">
             <div id="title">Simon</div>
             <div id="buttons">
-                <button id="power " class="switch"></button>
+
+                <input type="checkbox" id="power" class="switch">
                 <button id="start">Start</button>
-                <button id="strict" class="switch"></button>
+
+                <input type="checkbox" class="switch" id="strict">
             </div>
             <div id="labels" class="label">
                 <span>POWER</span> <span>STRICT</span>
 
             </div>
-            <div id="display">5</div>
+            <div id="display"></div>
             <div id="displayLabel" class="label">COUNT</div>
         </div>
     </div>
