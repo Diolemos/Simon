@@ -38,6 +38,7 @@ align-items: center;}
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     border-radius: 50%;
+    box-shadow: 1px 11px 13px rgb(0 0 0 / 41%);
 
 }
 .tile{
