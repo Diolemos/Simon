@@ -70,7 +70,7 @@ function play() {
         order.push(Math.floor(Math.random() * 4 + 1));
     }
     compTurn = true;
-    intervalId = setInterval(gameTurn, 800);
+    intervalId = setInterval(gameTurn, 1000);
 
 }
 
@@ -97,45 +97,45 @@ function gameTurn() {
 }
 
 function one() {
-    //I am working offline and I don't have the sound effects yet :/
-    // if(noise){
-    //     let audio = document.getElementById("audio1");
-    //     audio.play()
+   
+     if(noise){
+        let audio = new Audio("./audio/button1.mp3");
+        audio.play()
 
-    // }
-    // noise = true;
+    }
+    noise = true;
     topLeft.style.backgroundColor = 'lightgreen'
 }
 
 function two() {
-    //I am working offline and I don't have the sound effects yet :/
-    // if(noise){
-    //     let audio = document.getElementById("audio2");
-    //     audio.play()
+   
+    if(noise){
+        let audio = new Audio("./audio/button2.mp3");
+        audio.play()
 
-    // }
-    // noise = true;
+    }
+    noise = true;
     topRight.style.backgroundColor = 'tomato'
 }
 function three() {
-    //I am working offline and I don't have the sound effects yet :/
-    // if(noise){
-    //     let audio = document.getElementById("audio3");
-    //     audio.play()
+    
+    if(noise){
+        let audio = new Audio("./audio/button3.mp3");
+        audio.play()
 
-    // }
-    // noise = true;
+    }
+    noise = true;
     bottomLeft.style.backgroundColor = 'yellow'
 }
 
 function four() {
-    //I am working offline and I don't have the sound effects yet :/
-    // if(noise){
-    //     let audio = document.getElementById("audio4");
-    //     audio.play()
+    
+    if(noise){
+        let audio = new Audio("./audio/button4.mp3");
+        audio.play()
 
-    // }
-    // noise = true;
+    }
+    noise = true;
     bottomRight.style.backgroundColor = 'lightskyblue'
 }
 
