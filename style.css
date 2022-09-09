@@ -1,12 +1,28 @@
+*{margin: 0;
+padding:0;
+box-sizing: border-box;}
 
 body{
     
-    padding-top: 10%;
+   
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-rows: 100px 1fr 80px;
 
 }
+header,footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.624);
+}
+main{
+position: relative;
+/* min-height: 95vh; */
+display: flex;
+justify-content: center;
+align-items: center;}
+
 .container{
     width: 512px;
     position: relative;
@@ -44,19 +60,21 @@ border-bottom-left-radius: 100%;
 .bottomRight{
     background-color: rgb(13, 13, 199);
     border-bottom-right-radius: 100%;
+    position: relative;
 }
 
 .topCircle{
-    width: 250px;
-    height: 250px;
+    width: 255px;
+    height: 255px;
     border: 10px solid black;
     background: #999;
     border-radius: 50%;
     position: absolute;
     
     z-index: 100;
-    top: 125px;
-    left:123px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
     text-align: center; 
 }
 
